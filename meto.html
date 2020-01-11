@@ -1,0 +1,104 @@
+
+    <style>
+
+        thead th{
+            background: #511515;
+            border: black 2px solid
+        }
+        
+    </style>
+
+<div class="container-section " >
+        <div class="row">
+                <form class="col s12 l12 " id="docencia">
+                    <h2 class="white-text">Información del Trabajo Metodológico</h2>
+                    <div class=" row card-panel white-text " id="contenedor" >
+                            <div class="input-field col s12 l12">
+                                    <i class="material-icons prefix">class</i>
+                                    <input type="text" id="descripcion" class="validate" required>
+                                    <label for="descripcion" class="white-text">Descripción metodológica</label>
+                            </div>
+                         <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix">access_time</i>
+                                    <input type="text" id="hs" class="validate" required>
+                                    <label for="hs" class="white-text">Horas semanales</label>
+                            </div>
+                            
+                            <div class="input-field col s12 l6">
+                                    <i class="material-icons prefix">access_time</i>
+                                   <input type="text" id="hsemestre" class="validate" required>
+                                  <label for="hsemestre" class="white-text">Horas por semestre</label>
+                             </div>
+
+                             <div class="fixed-action-btn">
+                                <a  class=" btn-floating btn  modal-trigger red btn-large waves-effect waves-light " href="#info">
+                                    <i class="material-icons large">info</i>
+                                </a>
+                            </div>
+        
+                           
+                           
+                            <div class="input-field col s12 l6   ">
+                                     <button class="btn large white-text purple" type="submit">Enviar  Registro </button>
+                             </div>
+                                                                            
+                     </div>
+
+
+                     <table class="centered responsive-table highlight striped white">
+                            <thead class=" grey lighten-1 white-text">
+                                    <tr id="encabezado">
+                                        <th>Tiempo dedicado a planeamiento didáctico, evaluación de los aprendizajes en
+                                            sus diferentes formas, atención a estudiantes, elaboración, revisión y reprogramaciones de exámenes.</th>
+                                        <th>Horas Semanales</th>
+                                        <th>Horas semestrales</th>
+                                       
+                                    </tr>
+                                  </thead>
+                          
+                                  <tbody>
+                                    <tr>
+                                      <td>Redes</td>
+                                      <td>4</td>
+                                      <td>56</td>
+                                    </tr>
+                                    
+                                  </tbody>
+                     </table>
+
+
+                     
+                     <!--Estructura del modal -->
+                     <div class="modal modal-fixed-footer" id="info">
+                        <div class="modal-content">
+                                <p>
+                                        <h3 class="blue-text">INFORMACIÓN SOBRE EL TRABAJO DOCENTE METODOLÓGICO.</h3>                                            
+                                        <b>Descripción metodológica :</b> Indique las actividades relacionadas al trabajo docente metodológico; tales como
+                                         planeamiento didáctico, evaluación de los aprendizajes en sus diferentes formas,atención a estudiantes, elaboración, revisión y reprogramaciones de exámenes.
+                                        <br> <b>Horas Semanal:</b> Anote el número de horas que a la semana dedica a las distintas actividades del trabajo docente metodológico.
+                                        <br><b>	Horas Semestral:</b> Anote el número de horas al semestre que dedica al trabajo docente metodológico.
+
+                                        
+                                        
+                                </p>
+                        </div>
+                        <div class=" modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Entiendo</a>
+                        </div>
+                 </form>
+        
+            </div>
+
+</div>
+
+<script>
+            
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {
+   
+    hoverEnabled: false
+         });
+       
+</script>  

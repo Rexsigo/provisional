@@ -1,0 +1,129 @@
+
+        <div class="row">
+                <form class="col s12 l12" >
+                       <h2 class="white-text" >Datos Generales</h2>
+                            <div class=" row card-panel white-text ">
+                                    <div class="input-field col s12">
+                                    <i class="material-icons prefix">school</i>
+                                    <input type="text"  id="facultad" class="validate " required>
+                                    <label for="facultad" class="white-text">Facultad/Programa/CUR:</label>
+                                    </div>
+            
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">home</i>
+                                        <input type="text"  id="departamento" class="validate " required>
+                                        <label for="departamento"  class="white-text">Departamento Académico:</label>
+                                    </div>
+            
+                                    <div class="input-field col s12 l6">
+                                        <i class="material-icons prefix">school</i>
+                                        <input type="text"  id="semestre" class="validate " required>
+                                        <label for="semestre" class="white-text">Semestre:</label>
+                                    </div>
+                                    
+                                    <div class="input-field col s12 l6">
+                                        <i class="material-icons prefix">school</i>
+                                        <input type="number"  id="año" class="validate " required>
+                                        <label for="año" class="white-text">Año Electivo:</label>
+                                    </div>
+            
+                                    <div class="input-field col s12 l9">
+                                        <i class="material-icons prefix">person</i>
+                                        <input type="text"  id="nombre" class="validate " required>
+                                        <label for="nombre" class="white-text">Nombre del Académico:</label>
+                                    </div>
+            
+                                    <div class="input-field col s12 l3">
+                                            <i class="material-icons prefix">layers</i>
+                                            <input type="text"  id="nivel" class="validate " required>
+                                            <label for="nivel"class="white-text" >Nivel Académico:</label>
+                                    </div>
+            
+                                    <div class="input-field col s12 l4">
+                                            <i class="material-icons prefix">supervised_user_circless</i>
+                                            <input type="text"  id="cargo" class="validate " required>
+                                            <label for="cargo"class="white-text" >Cargo:</label>
+                                    </div>
+            
+                                    <div class="input-field col s11 l4">
+                                            <i class="material-icons prefix">info</i>
+                                            <input type="text"  id="contrato" class="validate " required>
+                                            <label for="contrato" class="white-text">Tipo de Contratación:</label>
+                                    </div>
+            
+                                    <div class="input-field col s12 l4">
+                                            <i class="material-icons prefix">category</i>
+                                            <input type="text"  id="categoria" class="validate " required>
+                                            <label for="categoria" class="white-text">Categoría:</label>
+                                    </div>
+                                    <div class="fixed-action-btn">
+                                   <a  class=" btn-floating btn  modal-trigger red btn-large waves-effect waves-light " href="#info">
+                                       <i class="material-icons large">info</i>
+                                   </a>
+                                    </div>
+       
+                               
+                       </div>
+        
+               </form>
+               <!--Estructura del modal -->
+               <div class="modal modal-fixed-footer" id="info">
+                     <div class="modal-content">
+                            <p>
+                                               <h4 class="blue-text"> DATOS GENERALES.</h4>
+   
+                                               <b>1.	Facultad/ Programa o CUR:</b> Nombre de la Facultad, Programa o CUR a la que pertenece.
+                                               <br> <b>2.	Departamento Académico:</b> Indique el Nombre del Departamento al que pertenece.
+                                               <br> <b> 3.	Semestre:</b> Especifique el Semestre al que corresponde la Carga académica
+                                               <br><b> 4.	Año:</b> Escriba el año lectivo en que se reporta la carga académica.
+                                               <br>  <b> 5.	Nombre del Académico (a):</b> De forma clara escriba su nombre completo (dos nombres y dos apellidos).
+                                               <ul> <b> 6.	Nivel Académico:</b> Se refiere al nivel académico último alcanzado, usando el código siguiente: 
+                                                   <li> A.  Doctorado (Ph.D)</li>			<li>B.  Maestría (M.Sc.)</li>	<li>	C.  Especialidad (Esp.)</li>
+                                               <li> D.  Médico General (M.G) </li>		<li>E.  Licenciado (Lic.)</li>		<li>F.  Ingeniero (Ing.)</li>
+                                               <li>G.  Cirujano – Dentista (CD) </li>	<li>	H. Técnico Superior (TS)</li>	I.  Egresado (Egr.)
+                                               J.   Estudiante (Est.)
+                                               </ul>
+                                               <br><b> 7.	Cargo: </b> Indique el cargo actual que desempeña el Académico, usando el código siguiente:
+                                               <br> A.  Rector			B.  Vicerrector(a)		C.  Secretario General		
+                                               D.  Decano(a)/Director(a)	E.  Vicedecano(a)		F.  Secretario(a) de Facultad	
+                                               G. Jefe de Departamento	H.  Administrativo		I.  Académico 			J. Otros
+                                               
+                                               <br> <ul><b> 8.	Tipo de contratación: </b> Tipo de contratación que tiene el académico con la Universidad, expresado de la siguiente forma:
+                                                   <li> A. Tiempo completo (8 horas diarias)</li>		<li> ¾ de tiempo (6 horas diarias)</li>
+                                                   <li> C. ½ Tiempo (4 horas diarias)	</li>		<li>D. ¼ de tiempo (2 horas diarias)</li>
+                                                   <li> E. Horario.</li>
+                                               </ul>
+                                               
+                                               Nota. (Pto.No.8): Aquellos profesores que tienen contratación especial y no se encuentran en estas categorías,
+                                               deberán marcar en el espacio asignado, el número de horas semanales que trabajan. 
+                                               
+                            </p>
+                       </div>
+                        <div class=" modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-float">Entiendo</a>
+                        </div>
+   
+                </div>
+               
+               
+        </div>
+       
+        <script>
+            
+                    var elems = document.querySelectorAll('.modal');
+                    var instances = M.Modal.init(elems);
+                    var elems = document.querySelectorAll('.fixed-action-btn');
+                    var instances = M.FloatingActionButton.init(elems, {
+                   
+                    hoverEnabled: false
+                         });
+                       
+        </script>  
+       
+        
+       
+
+
+
+
+    
